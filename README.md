@@ -37,27 +37,3 @@
    [ 运营商骨干网 ]             [ 全球互联网 / 外部资源 ]
 ```
 
----
-
-## 📂 文件结构
-
-```text
-wrt-notes/
-├── .devcontainer/                    # VS Code Dev Container 开发环境配置
-│   ├── devcontainer.json
-│   └── docker-compose.yml
-├── README.md                         # 仓库导航与文档索引
-├── OpenClash_旁路由部署与配置记录.md    # 旁路由与局域网无感分流配置
-├── IPv6_VLESS_部署与配置记录.md       # 纯 IPv6 VPS 节点搭建与直连记录
-└── 云服务器与运维平台汇总.md            # VPS 平台精选与网络运维工具汇总
-```
-
----
-
-## 💡 持续更新
-
-- [x] OpenClash 单臂旁路由调优与 DNS 防污染
-- [x] 纯 IPv6 VPS 搭建 VLESS-Reality 单跳直连
-- [x] 常用 VPS 平台与网络测速工具收录
-- [ ] 更多海外节点与中转线路对比评测
-- [ ] 容器化网络应用（Docker + Macvlan）部署记录

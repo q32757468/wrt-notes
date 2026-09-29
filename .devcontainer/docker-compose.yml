@@ -1,0 +1,10 @@
+services:
+  app:
+    image: sl-universal-image:latest
+    command: sleep infinity
+
+volumes:
+  sl-config:
+    name: sl-config
+  sl-cache:
+    name: sl-cache
